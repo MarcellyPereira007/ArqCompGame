@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=VT323&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 1200px;
+    height: 700px;
+    padding: 50px;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 2px dashed white;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-size: 25px;
+    line-height: 25px;
+    border-bottom: 2px dashed white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    font-family: "VT323", monospace;
+    font-size: 21px;
+}
+
+.instrucoes {
+    width:500px ;
+}
+
+.ascii{
+    width: 400px;
+    height: 200px;
+    font-size: 12px;
+}
