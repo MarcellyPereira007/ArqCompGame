@@ -1,0 +1,2 @@
+# ArqCompGame
+Atividade avaliativa de Arquitetura computacional. Criação de um jogo com perguntas e respostas de Arq Comp.
